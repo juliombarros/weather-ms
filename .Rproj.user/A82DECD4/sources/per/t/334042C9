@@ -1,6 +1,6 @@
 {
     "id": "334042C9",
-    "path": "~/dime/code/functions/plot_temperature_trend.r",
+    "path": "~/weather-ms/code/functions/plot_temperature_trend.r",
     "project_path": "code/functions/plot_temperature_trend.r",
     "type": "r_source",
     "hash": "1711599470",

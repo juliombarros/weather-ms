@@ -1,6 +1,6 @@
 {
     "id": "2A22B8A5",
-    "path": "~/dime/code/functions/plot_drought_trend.r",
+    "path": "~/weather-ms/code/functions/plot_drought_trend.r",
     "project_path": "code/functions/plot_drought_trend.r",
     "type": "r_source",
     "hash": "4148306299",
