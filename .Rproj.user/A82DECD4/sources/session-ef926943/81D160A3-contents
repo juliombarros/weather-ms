@@ -8,9 +8,9 @@ plot_drought_trend <- function(drought_data) {
   # Categorize the number of drought periods
   result_modified <- drought_data %>%
     mutate(period_category = case_when(
-      n_30days_periods == 0 ~ "0 periods",
-      n_30days_periods == 1 ~ "1 period",
-      n_30days_periods >= 2 ~ "2 and more",
+      n_30day_periods == 0 ~ "0 periods",
+      n_30day_periods == 1 ~ "1 period",
+      n_30day_periods >= 2 ~ "2 and more",
       TRUE ~ NA_character_
     )) %>%
     filter(!is.na(period_category))

@@ -1,5 +1,5 @@
-# 06_visualize_weather.R - Weather Trends
-# Purpose: Analyze and visualize weather trends such as drought and temperature changes.
+# 06_drought_trend.R - Weather Trends
+# Purpose: Analyze and visualize drought trends.
 # Author: Julio Meir
 # Date: Feb-2025
 
@@ -30,4 +30,4 @@ ggsave(
 
 print("Successfully saved: drought_trend.pdf")
 
-message("Weather visualization complete.")
+message("Drought visualization complete.")
