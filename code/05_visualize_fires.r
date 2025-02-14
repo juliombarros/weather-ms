@@ -25,11 +25,11 @@ pmap(list(map_data, names(map_data)), function(data, year) {
   
   # Generate fire map
   fire_plot <- create_fire_map(data, states, year)
-  ggsave(filename = paste0('output/fires_', year, '.pdf'), plot = fire_plot, width = 12, height = 10, dpi = 400, device = cairo_pdf)
+  ggsave(filename = paste0('output/fires_', year, '.png'), plot = fire_plot, width = 12, height = 10, dpi = 400)
   
   # Generate heatmap
   heatmap_plot <- create_heatmap(data, states, year)
-  ggsave(filename = paste0('output/fires_heatmap_', year, '.pdf'), plot = heatmap_plot, width = 12, height = 10, dpi = 400, device = cairo_pdf)
+  ggsave(filename = paste0('output/fires_heatmap_', year, '.png'), plot = heatmap_plot, width = 12, height = 10, dpi = 400)
 })
 
 message("Fire visualization complete.")

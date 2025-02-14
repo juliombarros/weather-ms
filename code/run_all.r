@@ -18,6 +18,6 @@ source("code/03_process_fires.R")
 source("code/04_process_weather.R")
 source("code/05_visualize_fires.R")
 source("code/06_drought_trend.R")
-source("code/06_weather_trend.R")
+source("code/07_temperature_trend.R")
 
 message("All scripts executed successfully! Output files are available in the output/ folder.\n")

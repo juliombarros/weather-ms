@@ -82,7 +82,7 @@ stations_thru_time <- ggplot(presence_long, aes(x = ano, y = id_estacao, fill = 
 
 # Save the plot
 ggsave(
-  filename = "stations_thru_time.pdf",
+  filename = "stations_thru_time.png",
   plot = stations_thru_time,
   path = "output",
   width = 10,

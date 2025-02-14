@@ -55,17 +55,17 @@ All plots are saved as PDF files in the `output` folder. Below are the primary v
 These maps display the spatial distribution of fire incidents across MS for key years:
 
 - **2017 Fires**  
-  ![Fire Map 2017](output/fires_2017.pdf)  
+  ![Fire Map 2017](output/fires_2017.png)  
   *Total fires: 5,737*  
   *Interpretation:* The map shows a significant concentration of fire spots in areas corresponding to the Pantanal region, indicating heightened fire activity during 2017. :contentReference[oaicite:0]{index=0}
 
 - **2018 Fires**  
-  ![Fire Map 2018](output/fires_2018.pdf)  
+  ![Fire Map 2018](output/fires_2018.png)  
   *Total fires: 2,380*  
   *Interpretation:* Compared to 2017, 2018 exhibits fewer fire events, though spatial clustering suggests that certain regions consistently experience elevated fire risks. :contentReference[oaicite:1]{index=1}
 
 - **2021 Fires**  
-  ![Fire Map 2021](output/fires_2021.pdf)  
+  ![Fire Map 2021](output/fires_2021.png)  
   *Total fires: 9,377*  
   *Interpretation:* The 2021 map indicates an even higher incidence of fires, with a broader distribution across the state. This surge may reflect a combination of climatic extremes and other environmental stressors. :contentReference[oaicite:2]{index=2}
 
@@ -73,29 +73,29 @@ These maps display the spatial distribution of fire incidents across MS for key 
 Heatmaps provide a density-based view of fire occurrences, highlighting hotspots:
 
 - **2017 Fire Density**  
-  ![Fire Heatmap 2017](output/fires_heatmap_2017.pdf)  
+  ![Fire Heatmap 2017](output/fires_heatmap_2017.png)  
   *Interpretation:* High fire density areas are clearly demarcated, particularly within the Pantanal region, reinforcing the spatial patterns observed in the fire maps. :contentReference[oaicite:3]{index=3}
 
 - **2018 Fire Density**  
-  ![Fire Heatmap 2018](output/fires_heatmap_2018.pdf)  
+  ![Fire Heatmap 2018](output/fires_heatmap_2018.png)  
   *Interpretation:* The 2018 heatmap shows lower overall density compared to 2017, though the focal areas of activity remain consistent. :contentReference[oaicite:4]{index=4}
 
 - **2021 Fire Density**  
-  ![Fire Heatmap 2021](output/fires_heatmap_2021.pdf)  
+  ![Fire Heatmap 2021](output/fires_heatmap_2021.png)  
   *Interpretation:* In 2021, the heatmap reveals broader and more intense areas of fire density, which may be associated with extreme weather conditions. :contentReference[oaicite:5]{index=5}
 
 ### Weather Station Consistency
 - **Stations Through Time**  
-  ![Stations Through Time](output/stations_thru_time.pdf)  
+  ![Stations Through Time](output/stations_thru_time.png)  
   *Interpretation:* This visualization highlights the presence/absence of weather stations across the study period. Consistent station data are crucial for robust temporal analyses of weather trends. :contentReference[oaicite:6]{index=6}
 
 ### Weather Trends
 - **Temperature Trend**  
-  ![Temperature Trend](output/temperaturet_trend.pdf)  
+  ![Temperature Trend](output/temperaturet_trend.png)  
   *Interpretation:* The plot displays the annual count of days with maximum temperatures exceeding 35°C. An upward trend in extreme heat events is observable over time; however, further econometric analysis is necessary to evaluate causal links. :contentReference[oaicite:7]{index=7}
 
 - **Drought Trend**  
-  ![Drought Trend](output/drought_trend.pdf)  
+  ![Drought Trend](output/drought_trend.png)  
   *Interpretation:* This plot shows the evolution of extended drought periods (30+ consecutive days without rain) over the years. Variability in the proportion of stations experiencing multiple drought spells indicates that drought severity and frequency have not been uniform over time. :contentReference[oaicite:8]{index=8}
 
 ---

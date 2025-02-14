@@ -19,15 +19,14 @@ drought_plot <- plot_drought_trend(dry_periods)
 
 # Save the plot
 ggsave(
-  filename = "drought_trend.pdf",
+  filename = "drought_trend.png",
   plot = drought_plot,
   path = "output",
   width = 10,
   height = 6,
-  dpi = 300,
-  device = cairo_pdf
+  dpi = 300
 )
 
-print("Successfully saved: drought_trend.pdf")
+print("Successfully saved: drought_trend.png")
 
 message("Drought visualization complete.")

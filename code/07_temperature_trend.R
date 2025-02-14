@@ -17,7 +17,7 @@ temperature_plot <- plot_temperature_trend(daily_weather, temperature_goal = 35)
 
 # Save the plot
 ggsave(
-  filename = "temperaturet_trend.pdf",
+  filename = "temperaturet_trend.png",
   plot = temperature_plot,
   path = "output",
   width = 10,
@@ -26,7 +26,7 @@ ggsave(
 )
 
 
-print("Successfully saved: temperature_plot.pdf")
+print("Successfully saved: temperature_plot.png")
 
 
 message("Weather visualization complete.")
